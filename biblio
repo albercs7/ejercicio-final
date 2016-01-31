@@ -1,0 +1,34 @@
+% Encoding: UTF-8
+
+@Book{cara,
+  title =     {Ojo},
+  publisher = {nariz},
+  year =      {oreja},
+  author =    {boca},
+  editor =    {Mano}
+}
+
+@Book{nosotros,
+  title =     {Yo},
+  publisher = {tu},
+  year =      {el},
+  author =    {ella},
+  editor =    {ello}
+}
+
+@InBook{yes,
+  chapter =   {capitulo 1},
+  pages =     {23},
+  title =     {Hola},
+  publisher = {manolo},
+  year =      {1098},
+  author =    {Manolo II},
+  editor =    {Manolo III}
+}
+
+@Article{,
+  author =  {Alberto},
+  title =   {Título},
+  journal = {Journal - American Water Works Association},
+  year =    {1985}
+}

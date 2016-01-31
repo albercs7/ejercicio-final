@@ -1,0 +1,91 @@
+\documentclass[10pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{kpfonts}
+\usepackage{wrapfig}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{{\LARGE Alberto Castellon Sanchez}}
+\title{{\Huge Ejercicio final curso de \LaTeX\  y Git}}
+\begin{document}
+\maketitle
+
+\tableofcontents
+\part{LA LISTA}
+\chapter*{Lista}
+{\LARGE \textbf{Ejemplo de lista numérica.}}
+\\
+\begin{enumerate}
+\item El número uno.\\
+\item El número dos.\\
+\item El número trés.\\
+\item El número cuatro.\\
+\item El número cino.\\
+\end{enumerate}
+
+{\LARGE \textbf{Ahora otra pero con puntos.}}\\
+\begin{itemize}
+\item Punto uno  
+\item Punto dos
+\item Punto trés
+\item Punto cuatro
+\item Punto cinco
+\item Punto seis
+\end{itemize}
+
+\newpage
+\part{LA IMAGEN}
+\chapter*{Imagenes}
+{\LARGE \textbf{Ejemplo de inserción imagenes.}}\\\\
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\linewidth]{LaTeX02}
+\caption[Imagen LaTeX]{Imagen Latex}
+\end{figure}
+\begin{figure*}[h]
+\centering
+\includegraphics[width=0.3\linewidth]{git4}
+\caption{Foto de Git}
+\label{fig:git4}
+\end{figure*}
+
+\part{LAS FORMULAS}
+\chapter*{Formulas} 
+{\LARGE \textbf{Para terminar unas formulillas matemáticas}}\\\\
+$$ \sum_{k=1}^n=\sqrt{\frac{E^{n}+8}{B_{m}}}+\sqrt[5]{14}\ \ (Ley\ de\ agromenawer)$$
+$$ \prod_{k=1}^n=\sqrt{\frac{14 + 2}{4^{2}}-\overrightarrow{\sqrt{\\pi}}}\ \ (Ley\ actimel) $$
+
+{\LARGE \textbf{Y un ejemplo de una tabla}}\\\\
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline 
+1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9\\ 
+\hline 
+2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 1\\ 
+\hline 
+3 & 4 & 5 & 6 & 7 & 8 & 9 & 1 & 2\\ 
+\hline 
+4 & 5 & 6 & 7 & 8 & 9 & 1 & 2 & 3\\ 
+\hline
+5 & 6 & 7 & 8 & 9 & 1 & 2 & 3 & 4\\
+\hline  
+6 & 7 & 8 & 9 & 1 & 2 & 3 & 4 & 5\\
+\hline  
+7 & 8 & 9 & 1 & 2 & 3 & 4 & 5 & 6\\
+\hline  
+8 & 9 & 1 & 2 & 3 & 4 & 5 & 6 & 7\\
+\hline  
+9 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8\\
+\hline  
+\end{tabular}
+\end{center} 
+\part{LA BIBLIOGRAFÍA}
+\bibliographystyle{plain}
+\bibliography{C:/Users/Alberto/Desktop/biblio}
+\cite{cara,nosotros,yo,yes,nosotros}
+\end{document}
